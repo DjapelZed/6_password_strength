@@ -1,4 +1,5 @@
 import re
+import getpass
 
 
 #WEIGHTS
@@ -67,6 +68,9 @@ def get_password_strength(password, filepath):
 
 
 if __name__ == '__main__':
-    user_password = input('Password: ')
-    filepath = input('File path: ')
-    print('Password rating:', get_password_strength(user_password, filepath))
+    print('*Пароль не будет отображаться при вводе в целях безопасности*')
+    user_password = getpass.getpass('Пароль:')
+    print('*Теперь введи путь к "черному списку" паролей*')
+    print('*Скачать его можно по этой ссылке: https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt *')
+    filepath = input('Путь к файлу: ')
+    print('Оценка твоего пароля:', get_password_strength(user_password, filepath))
