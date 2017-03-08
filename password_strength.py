@@ -68,9 +68,9 @@ def get_password_strength(password, filepath):
 
 
 if __name__ == '__main__':
-    print('*Пароль не будет отображаться при вводе в целях безопасности*')
-    user_password = getpass.getpass('Пароль:')
-    print('*Теперь введи путь к "черному списку" паролей*')
-    print('*Скачать его можно по этой ссылке: https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt *')
-    filepath = input('Путь к файлу: ')
-    print('Оценка твоего пароля:', get_password_strength(user_password, filepath))
+    print('*** The password will not be displayed as you type for security reasons ***')
+    user_password = getpass.getpass('Enter the password:')
+    print('*** Now, enter the path to a blacklist ***')
+    print('*** You can download the blacklist: https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/10k_most_common.txt ***')
+    filepath = input('Path: ')
+    print('The score of the complexity of your password is {0}!'.format(get_password_strength(user_password, filepath)))
