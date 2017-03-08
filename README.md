@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PSC v1.0
  **This script checks the password strength**
 # How to
@@ -16,3 +17,14 @@ python3 password_strength.py
 
 # Requirments
 **Python 3**
+=======
+# 6_password_strength
+Этот скрипт оценивает твой пароль
+# Как использовать
+Введи пароль для оценки, затем введи путь к 
+[черному списку паролей (скачай его)](https://raw.githubusercontent.com/dominictarr/random-name/master/first-names.txt) 
+Программа оценит пароль от **1 до 10**.
+1 - твой пароль очень слабый, придумай другой. 10 - твой пароль надежный.
+# Требования
+**Python 3**
+>>>>>>> 99554e8ba272be0b8c0e0b0e3abe8dfdc8901c56
