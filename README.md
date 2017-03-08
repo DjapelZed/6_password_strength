@@ -1,7 +1,7 @@
 # PSC v1.0
  **This script checks the password strength**
 # How to
-If you want to test the strength of the password using this script, follow these steps:
+If you want to test the strength of the password using this script, follow these steps:  
 1. Install [**Python 3**](https://www.python.org/) on your PC. *If you use Unix-system, most probably Python already pre-installed.*
 2. Download the [**repository**](https://github.com/DjapelZed/6_password_strength/archive/master.zip).
 3. Unzip the archive.
